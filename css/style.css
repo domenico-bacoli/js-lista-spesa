@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: rgba(214, 214, 214, 0.2);
+    border-radius: 30px;
+}
+
+#container #list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 0;
+}
+
+.item{
+    font-size: 1.2em;
+}
